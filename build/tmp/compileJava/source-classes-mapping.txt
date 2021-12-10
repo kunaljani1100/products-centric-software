@@ -2,17 +2,17 @@ com/products/main/ProductApplication.java
  com.products.main.ProductApplication
 com/products/main/controller/ProductController.java
  com.products.main.controller.ProductController
+com/products/main/models/GetProductResponse.java
+ com.products.main.models.GetProductResponse
 com/products/main/database/DBConnector.java
  com.products.main.database.DBConnector
+com/products/main/models/AddProductResponse.java
+ com.products.main.models.AddProductResponse
 com/products/main/models/AddProductRequest.java
  com.products.main.models.AddProductRequest
 com/products/main/entities/ProductEntity.java
  com.products.main.entities.ProductEntity
-com/products/main/models/AddProductResponse.java
- com.products.main.models.AddProductResponse
-com/products/main/models/GetProductResponse.java
- com.products.main.models.GetProductResponse
-com/products/main/controller/GetProductController.java
- com.products.main.controller.GetProductController
 com/products/main/controller/AddProductController.java
  com.products.main.controller.AddProductController
+com/products/main/controller/GetProductController.java
+ com.products.main.controller.GetProductController

@@ -1,9 +1,6 @@
 package com.products.main.entities;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
-import org.bson.BsonTimestamp;
-import org.bson.types.ObjectId;
 
 import java.time.LocalDateTime;
 import java.util.List;

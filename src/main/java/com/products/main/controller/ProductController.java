@@ -1,11 +1,13 @@
 package com.products.main.controller;
 
-import com.mongodb.client.MongoDatabase;
 import com.products.main.database.DBConnector;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.function.support.RouterFunctionMapping;
+
+import java.sql.Connection;
+import java.sql.SQLException;
 
 @RestController
 @CrossOrigin
@@ -15,10 +17,9 @@ public class ProductController {
     }
 
     @Bean
-    public MongoDatabase createConnectionToDatabase() {
+    public Connection createConnectionToDatabase() throws SQLException {
         DBConnector connector = new DBConnector();
-        connector.connect("mongodb://localhost:27017");
-        return connector.getMongoDatabase();
+        return connector.connect("jdbc:postgresql://localhost/");
     }
 
     @Bean
