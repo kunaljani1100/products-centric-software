@@ -12,6 +12,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import java.sql.*;
 import java.time.LocalDateTime;
 
+/**
+ * AddProductController handles the addition os products to the database.
+ */
 @Controller
 @EnableWebMvc
 @RestController

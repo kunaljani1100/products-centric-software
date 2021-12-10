@@ -9,6 +9,9 @@ import org.springframework.web.servlet.function.support.RouterFunctionMapping;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+/**
+ * ProductController handles the initialization involving connecting to the database.
+ */
 @RestController
 @CrossOrigin
 public class ProductController {

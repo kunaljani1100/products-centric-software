@@ -17,6 +17,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * GetProductController handles the request of products from the database.
+ */
 @Controller
 @EnableWebMvc
 @RestController
